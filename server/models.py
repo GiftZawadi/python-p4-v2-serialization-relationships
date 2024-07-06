@@ -16,7 +16,6 @@ metadata = MetaData(naming_convention=convention)
 
 db = SQLAlchemy(metadata=metadata)
 
-
 class Zookeeper(db.Model):
     __tablename__ = 'zookeepers'
 
